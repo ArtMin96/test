@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/armswiss/components/bitrix/menu/main_menu/script.js" => "15758974884079",); ?>

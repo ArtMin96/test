@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/armswiss/components/bitrix/news.list/home_page_services/style.css" => "15759015653152",); ?>

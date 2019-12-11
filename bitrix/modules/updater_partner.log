@@ -1,0 +1,1281 @@
+2019-12-09 08:58:24 -  - exec CUpdateClientPartner::SearchModulesEx
+2019-12-09 08:58:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-09 08:58:24 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-09 08:58:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-09 08:58:26 -  - TIME SearchModulesEx(request) 1.271 sec
+2019-12-09 08:58:26 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-09 08:58:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-09 08:58:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-09 08:58:41 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-09 08:58:41 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-09 08:58:41 -  - TIME LoadModulesUpdates(request) 0.373 sec
+2019-12-09 08:58:41 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-09 08:58:41 - S - STEP
+2019-12-09 08:58:41 - LM4W01 - loadModule4Wizard-Step
+2019-12-09 08:58:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-09 08:58:41 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-09 08:58:41 -  - loadFile
+2019-12-09 08:58:41 - U - RETURN
+2019-12-09 08:58:41 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-09 08:58:41 -  - TIME UnGzipArchive 0.013 sec
+2019-12-09 08:58:41 -  - TIME UpdateStepModules 0.013 sec
+2019-12-09 08:58:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-09 08:58:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-09 08:58:41 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-09 08:58:41 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-09 08:58:42 -  - TIME LoadModulesUpdates(request) 0.278 sec
+2019-12-09 08:58:42 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-09 08:58:42 - STEP - Finish - NOUPDATES
+2019-12-09 08:58:42 - LM4W03 - Finish - NOUPDATES
+2019-12-09 09:00:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-09 09:00:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-09 09:00:58 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-09 09:00:58 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-09 09:00:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-09 09:00:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2019-12-09 09:00:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-09 09:00:58 -  - TIME GetUpdatesList(request) 0.28 sec
+2019-12-09 09:00:58 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-09 09:00:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-09 09:00:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-09 09:00:58 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:44 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-10 10:28:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate%2Casd.iblock&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:44 -  - TIME GetUpdatesList(request) 0.441 sec
+2019-12-10 10:28:44 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:52 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:52 -  - TIME LoadModulesUpdates(request) 0.271 sec
+2019-12-10 10:28:52 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:52 - S - STEP
+2019-12-10 10:28:52 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:53 -  - loadFile
+2019-12-10 10:28:53 - U - RETURN
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:53 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:28:53 -  - TIME UpdateStepModules 0.005 sec
+2019-12-10 10:28:53 - UPD_SUCCESS - Updated: asd.iblock
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C1.3.1%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:53 -  - TIME LoadModulesUpdates(request) 0.266 sec
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:53 - S - STEP
+2019-12-10 10:28:53 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:53 -  - loadFile
+2019-12-10 10:28:53 - U - RETURN
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:53 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:28:53 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:28:53 - UPD_SUCCESS - Updated: asd.iblock (1.3.2)<br>- Корректировка для обновления 11.0.5 главного модуля.
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C1.3.2%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:54 -  - TIME LoadModulesUpdates(request) 0.265 sec
+2019-12-10 10:28:54 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:54 - S - STEP
+2019-12-10 10:28:54 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:54 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:54 -  - loadFile
+2019-12-10 10:28:54 - U - RETURN
+2019-12-10 10:28:54 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:54 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:28:54 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:28:54 - UPD_SUCCESS - Updated: asd.iblock (1.3.3)<br>- Исправлено копирование свойства типа HTML.
+2019-12-10 10:28:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C1.3.3%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:54 -  - TIME LoadModulesUpdates(request) 0.31 sec
+2019-12-10 10:28:54 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:54 - S - STEP
+2019-12-10 10:28:54 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:54 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:54 -  - loadFile
+2019-12-10 10:28:54 - U - RETURN
+2019-12-10 10:28:54 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:54 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:28:54 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973734/asd.iblock/updater1.3.5.php'
+2019-12-10 10:28:54 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:28:54 - UPD_SUCCESS - Updated: asd.iblock (1.3.5)<br>- Добавлен вывод ошибок при копировании/перемещении.
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C1.3.5%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:55 -  - TIME LoadModulesUpdates(request) 0.281 sec
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:55 - S - STEP
+2019-12-10 10:28:55 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:55 -  - loadFile
+2019-12-10 10:28:55 - U - RETURN
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:55 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:28:55 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973735/asd.iblock/updater2.0.0.php'
+2019-12-10 10:28:55 -  - TIME UpdateStepModules 0.005 sec
+2019-12-10 10:28:55 - UPD_SUCCESS - Updated: asd.iblock (2.0.0)<br>- Добавлена возможность импорта/экспорта свойств инфоблока (кнопка находится на панели инструментов на странице редактирования инфоблока). - Изменена структура классов модуля.
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C2.0.0%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:55 -  - TIME LoadModulesUpdates(request) 0.263 sec
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:55 - S - STEP
+2019-12-10 10:28:55 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:55 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:55 -  - loadFile
+2019-12-10 10:28:56 - U - RETURN
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:56 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:28:56 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:28:56 - UPD_SUCCESS - Updated: asd.iblock (2.0.1)<br>- Обратная интерфейсная совместимость.
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C2.0.1%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:56 -  - TIME LoadModulesUpdates(request) 0.281 sec
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:56 - S - STEP
+2019-12-10 10:28:56 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:56 -  - loadFile
+2019-12-10 10:28:56 - U - RETURN
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:56 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:28:56 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:28:56 - UPD_SUCCESS - Updated: asd.iblock (2.0.2)<br>- Исправления для импорта в инфоблок без свойств.
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C2.0.2%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:56 -  - TIME LoadModulesUpdates(request) 0.289 sec
+2019-12-10 10:28:56 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:57 - S - STEP
+2019-12-10 10:28:57 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:57 -  - loadFile
+2019-12-10 10:28:57 - U - RETURN
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:57 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:28:57 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:28:57 - UPD_SUCCESS - Updated: asd.iblock (2.0.4)<br>- Незначительные изменения.
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C2.0.4%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:57 -  - TIME LoadModulesUpdates(request) 0.277 sec
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:57 - S - STEP
+2019-12-10 10:28:57 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:57 -  - loadFile
+2019-12-10 10:28:57 - U - RETURN
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:57 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:28:57 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:28:57 - UPD_SUCCESS - Updated: asd.iblock (2.0.5)<br>- Исправление для неуникальных кодов вариантов списка в пределах одного инфоблока.
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C2.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:58 -  - TIME LoadModulesUpdates(request) 0.273 sec
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:58 - S - STEP
+2019-12-10 10:28:58 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:58 -  - loadFile
+2019-12-10 10:28:58 - U - RETURN
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:58 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:28:58 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973738/asd.iblock/updater2.0.7.php'
+2019-12-10 10:28:58 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:28:58 - UPD_SUCCESS - Updated: asd.iblock (2.0.7)<br>- Jquery теперь подключается системно. 
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C2.0.7%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:58 -  - TIME LoadModulesUpdates(request) 0.265 sec
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:58 - S - STEP
+2019-12-10 10:28:58 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:58 -  - loadFile
+2019-12-10 10:28:58 - U - RETURN
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:58 -  - TIME UnGzipArchive 0.007 sec
+2019-12-10 10:28:58 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973738/asd.iblock/updater3.0.0.php'
+2019-12-10 10:28:58 -  - TIME UpdateStepModules 0.005 sec
+2019-12-10 10:28:58 - UPD_SUCCESS - Updated: asd.iblock (3.0.0)<br><ul> <li>Реализована полная поддержка каталога (цены, остатки). За посильную помощь спасибо Василию Бернгардту. </li> <li>Добавлена опция \"Отвязать от текущего раздела\". </li> <li>Добавлена возможность копировать/перемещать в конкретный раздел инфоблока.</li> <li>Добавлен новый тип свойств \"Простой чекбокс\".</li> <li>В карточке товара добавлена кнопка \"посмотреть в публичной части\".</li> <li>Реализован выбор свойств для экспорта, прибран формат XML, файл экспорта теперь сохраняется на диске, перед отдачей.</li> <li>Теперь символьный код проверяется на уникальность, и если таковой нет, создает ее, дополняя случайными числами. Необходимо для инфоблоков, где символьный код является частью URL. </li> <li>Более корректное подключение скриптов и библиотек.</li> <li>Исправлена ошибка с копированием/перемещением элементов (не копировалось свойство типа \"список\").</li> <li>Косметические изменения в коде инсталятора.</li> <li>Подробнее: http://dev.1c-bitrix.ru/community/webdev/user/11948/blog/7272/</li> </ul>
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C3.0.0%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:59 -  - TIME LoadModulesUpdates(request) 0.253 sec
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:59 - S - STEP
+2019-12-10 10:28:59 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:59 -  - loadFile
+2019-12-10 10:28:59 - U - RETURN
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:59 -  - TIME UnGzipArchive 0.002 sec
+2019-12-10 10:28:59 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973739/asd.iblock/updater3.0.1.php'
+2019-12-10 10:28:59 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:28:59 - UPD_SUCCESS - Updated: asd.iblock (3.0.1)<br>- Незначительные исправления.
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:59 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C3.0.1%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:28:59 -  - TIME LoadModulesUpdates(request) 0.251 sec
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:59 - S - STEP
+2019-12-10 10:28:59 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:28:59 -  - loadFile
+2019-12-10 10:28:59 - U - RETURN
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:28:59 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:28:59 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973739/asd.iblock/updater3.0.2.php'
+2019-12-10 10:28:59 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:28:59 - UPD_SUCCESS - Updated: asd.iblock (3.0.2)<br>- Автоматическое создание обработчика типа свойства при установленном модуле.
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:28:59 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C3.0.2%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:28:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:00 -  - TIME LoadModulesUpdates(request) 0.253 sec
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:00 - S - STEP
+2019-12-10 10:29:00 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:00 -  - loadFile
+2019-12-10 10:29:00 - U - RETURN
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:00 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:29:00 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973740/asd.iblock/updater3.1.0.php'
+2019-12-10 10:29:00 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:00 - UPD_SUCCESS - Updated: asd.iblock (3.1.0)<br>- Тип свойства \"Простой чекбокс\" разделен на числовой и строковый типы. - Добавлена возможность настройки принимаемых значений простого чекбокса.
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:00 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C3.1.0%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:00 -  - TIME LoadModulesUpdates(request) 0.287 sec
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:00 - S - STEP
+2019-12-10 10:29:00 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:00 -  - loadFile
+2019-12-10 10:29:00 - U - RETURN
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:00 -  - TIME UnGzipArchive 0.004 sec
+2019-12-10 10:29:00 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973740/asd.iblock/updater3.5.0.php'
+2019-12-10 10:29:00 -  - TIME UpdateStepModules 0.005 sec
+2019-12-10 10:29:00 - UPD_SUCCESS - Updated: asd.iblock (3.5.0)<br>- Добавлены пользовательские свойства инфоблоков: http://dev.1c-bitrix.ru/community/webdev/user/11948/blog/7307/
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:00 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C3.5.0%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:01 -  - TIME LoadModulesUpdates(request) 0.266 sec
+2019-12-10 10:29:01 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:01 - S - STEP
+2019-12-10 10:29:01 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:01 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:01 -  - loadFile
+2019-12-10 10:29:01 - U - RETURN
+2019-12-10 10:29:01 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:01 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:29:01 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973741/asd.iblock/updater3.5.1.php'
+2019-12-10 10:29:01 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:01 - UPD_SUCCESS - Updated: asd.iblock (3.5.1)<br>- Мелкие изменения.
+2019-12-10 10:29:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C3.5.1%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:01 -  - TIME LoadModulesUpdates(request) 0.276 sec
+2019-12-10 10:29:01 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:01 - S - STEP
+2019-12-10 10:29:01 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:01 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:01 -  - loadFile
+2019-12-10 10:29:01 - U - RETURN
+2019-12-10 10:29:01 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:01 -  - TIME UnGzipArchive 0.004 sec
+2019-12-10 10:29:01 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973741/asd.iblock/updater3.5.2.php'
+2019-12-10 10:29:01 -  - TIME UpdateStepModules 0.005 sec
+2019-12-10 10:29:01 - UPD_SUCCESS - Updated: asd.iblock (3.5.2)<br>- Исправление ошибки копирования в списке при уникальности символьного кода. 
+2019-12-10 10:29:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C3.5.2%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:02 -  - TIME LoadModulesUpdates(request) 0.264 sec
+2019-12-10 10:29:02 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:02 - S - STEP
+2019-12-10 10:29:02 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:02 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:02 -  - loadFile
+2019-12-10 10:29:02 - U - RETURN
+2019-12-10 10:29:02 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:02 -  - TIME UnGzipArchive 0.018 sec
+2019-12-10 10:29:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973742/asd.iblock/updater4.0.0.php'
+2019-12-10 10:29:02 -  - TIME UpdateStepModules 0.014 sec
+2019-12-10 10:29:02 - UPD_SUCCESS - Updated: asd.iblock (4.0.0)<br><li> Удобное редактирование с перескакиванием по ячейкам! <li> Добавлен тип свойства \"Палитра\". <li> Реализовано копирование секций (без подсекций и элементов). <li> Свойство \"простой чекбокс\" поддерживает вывод в публичной части. <li> Переработана система прав под новые версии. <li> Разработчикам: добавлен метод CASDiblockTools::SetIBUF($IBLOCK_ID, $arFields) для сохранения пользовательских свойств инфоблока. <li> При переносе/копировании элементов в другой инфоблок списки теперь сохраняются даже при различных XML_ID вариантов, в случае их разности за сравнение берется название вариантов. <li> Исправлена ошибка сохранения пользовательского свойства инфоблока списочного типа. <li> Прочие незначительные улучшения и изменения. <li> Поиск и исправления notice PHP. 
+2019-12-10 10:29:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.0.0%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:03 -  - TIME LoadModulesUpdates(request) 0.265 sec
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:03 - S - STEP
+2019-12-10 10:29:03 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:03 -  - loadFile
+2019-12-10 10:29:03 - U - RETURN
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:03 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:29:03 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973743/asd.iblock/updater4.0.1.php'
+2019-12-10 10:29:03 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:03 - UPD_SUCCESS - Updated: asd.iblock (4.0.1)<br>- Мелкие исправления js-скрипта.
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:03 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.0.1%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:03 -  - TIME LoadModulesUpdates(request) 0.257 sec
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:03 - S - STEP
+2019-12-10 10:29:03 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:03 -  - loadFile
+2019-12-10 10:29:03 - U - RETURN
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:03 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:29:03 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973743/asd.iblock/updater4.0.2.php'
+2019-12-10 10:29:03 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:03 - UPD_SUCCESS - Updated: asd.iblock (4.0.2)<br>- Регистрация обработчика Палитры.
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:03 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.0.2%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:04 -  - TIME LoadModulesUpdates(request) 0.315 sec
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:04 - S - STEP
+2019-12-10 10:29:04 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:04 -  - loadFile
+2019-12-10 10:29:04 - U - RETURN
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:04 -  - TIME UnGzipArchive 0.005 sec
+2019-12-10 10:29:04 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973744/asd.iblock/updater4.5.0.php'
+2019-12-10 10:29:04 -  - TIME UpdateStepModules 0.007 sec
+2019-12-10 10:29:04 - UPD_SUCCESS - Updated: asd.iblock (4.5.0)<br><li> Добавлен экспорт/импорт форм представления форм секций и элементов. <li> В интерфейсе Эрмитажа добавлена ссылка на элемент в админ.части. <li> В блоке настроек в списке элементов добавлена опция переключения режима представления элементов и секций: совместный/раздельный. <li> Улучшен тип свойства \"Простой чекбокс\", теперь для не установленных галочек стоит пусто. 
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.0%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:04 -  - TIME LoadModulesUpdates(request) 0.256 sec
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:04 - S - STEP
+2019-12-10 10:29:04 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:04 -  - loadFile
+2019-12-10 10:29:04 - U - RETURN
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:04 -  - TIME UnGzipArchive 0.002 sec
+2019-12-10 10:29:04 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973744/asd.iblock/updater4.5.1.php'
+2019-12-10 10:29:04 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:04 - UPD_SUCCESS - Updated: asd.iblock (4.5.1)<br>- Фикс обновления 4.5.1 под старшие версии PHP.
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.1%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:05 -  - TIME LoadModulesUpdates(request) 0.251 sec
+2019-12-10 10:29:05 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:05 - S - STEP
+2019-12-10 10:29:05 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:05 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:05 -  - loadFile
+2019-12-10 10:29:05 - U - RETURN
+2019-12-10 10:29:05 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:05 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:29:05 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973745/asd.iblock/updater4.5.2.php'
+2019-12-10 10:29:05 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:05 - UPD_SUCCESS - Updated: asd.iblock (4.5.2)<br>- System update.
+2019-12-10 10:29:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.2%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:05 -  - TIME LoadModulesUpdates(request) 0.284 sec
+2019-12-10 10:29:05 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:05 - S - STEP
+2019-12-10 10:29:05 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:05 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:05 -  - loadFile
+2019-12-10 10:29:06 - U - RETURN
+2019-12-10 10:29:06 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:06 -  - TIME UnGzipArchive 0.006 sec
+2019-12-10 10:29:06 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973746/asd.iblock/updater4.5.3.php'
+2019-12-10 10:29:06 -  - TIME UpdateStepModules 0.003 sec
+2019-12-10 10:29:06 - UPD_SUCCESS - Updated: asd.iblock (4.5.3)<br>- Совместимость с версией 14.5 Битрикс.
+2019-12-10 10:29:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:06 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.3%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:06 -  - TIME LoadModulesUpdates(request) 0.279 sec
+2019-12-10 10:29:06 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:06 - S - STEP
+2019-12-10 10:29:06 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:06 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:06 -  - loadFile
+2019-12-10 10:29:06 - U - RETURN
+2019-12-10 10:29:06 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:06 -  - TIME UnGzipArchive 0.008 sec
+2019-12-10 10:29:06 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973746/asd.iblock/updater4.5.5.php'
+2019-12-10 10:29:06 -  - TIME UpdateStepModules 0.006 sec
+2019-12-10 10:29:06 - UPD_SUCCESS - Updated: asd.iblock (4.5.5)<br>- Окно палитры теперь центрируется по центру экрана.
+2019-12-10 10:29:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:06 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.5%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:07 -  - TIME LoadModulesUpdates(request) 0.268 sec
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:07 - S - STEP
+2019-12-10 10:29:07 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:07 -  - loadFile
+2019-12-10 10:29:07 - U - RETURN
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:07 -  - TIME UnGzipArchive 0.002 sec
+2019-12-10 10:29:07 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973747/asd.iblock/updater4.5.6.php'
+2019-12-10 10:29:07 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:07 - UPD_SUCCESS - Updated: asd.iblock (4.5.6)<br>- Исправлена ошибка для типа свойств \"Простой чекбокс\" для режима \"включен по умолчанию\".
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.6%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:07 -  - TIME LoadModulesUpdates(request) 0.256 sec
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:07 - S - STEP
+2019-12-10 10:29:07 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:07 -  - loadFile
+2019-12-10 10:29:07 - U - RETURN
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:07 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:29:07 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973747/asd.iblock/updater4.5.7.php'
+2019-12-10 10:29:07 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:07 - UPD_SUCCESS - Updated: asd.iblock (4.5.7)<br><ul> <li>Поправлена ошибка с правами доступа. <li>Поправлена ошибка, при которой слетали описания свойств при копировании и переносе. </ul>
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.7%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:08 -  - TIME LoadModulesUpdates(request) 0.255 sec
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:08 - S - STEP
+2019-12-10 10:29:08 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:08 -  - loadFile
+2019-12-10 10:29:08 - U - RETURN
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:08 -  - TIME UnGzipArchive 0.002 sec
+2019-12-10 10:29:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973748/asd.iblock/updater4.5.8.php'
+2019-12-10 10:29:08 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:08 - UPD_SUCCESS - Updated: asd.iblock (4.5.8)<br>Незначительные улучшения.
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.8%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:08 -  - TIME LoadModulesUpdates(request) 0.267 sec
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:08 - S - STEP
+2019-12-10 10:29:08 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:08 -  - loadFile
+2019-12-10 10:29:08 - U - RETURN
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:08 -  - TIME UnGzipArchive 0.002 sec
+2019-12-10 10:29:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973748/asd.iblock/updater4.5.9.php'
+2019-12-10 10:29:08 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:08 - UPD_SUCCESS - Updated: asd.iblock (4.5.9)<br>Исправление типов \"простые чекбоксы\" для показа в универсальных списках.
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.9%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:09 -  - TIME LoadModulesUpdates(request) 0.258 sec
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:09 - S - STEP
+2019-12-10 10:29:09 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:09 -  - loadFile
+2019-12-10 10:29:09 - U - RETURN
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:09 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:29:09 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973749/asd.iblock/updater4.5.10.php'
+2019-12-10 10:29:09 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:09 - UPD_SUCCESS - Updated: asd.iblock (4.5.10)<br>Исправлено копирование описаний свойств.
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.10%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:09 -  - TIME LoadModulesUpdates(request) 0.308 sec
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:09 - S - STEP
+2019-12-10 10:29:09 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:09 -  - loadFile
+2019-12-10 10:29:09 - U - RETURN
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:09 -  - TIME UnGzipArchive 0.002 sec
+2019-12-10 10:29:09 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973749/asd.iblock/updater4.5.11.php'
+2019-12-10 10:29:09 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:09 - UPD_SUCCESS - Updated: asd.iblock (4.5.11)<br>Исправлено поведение свойства типа \"Привязка к собственной секции\" при виде \"Список\". Также свойство добавлено в установку в обновлении.
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.11%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:10 -  - TIME LoadModulesUpdates(request) 0.257 sec
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:10 - S - STEP
+2019-12-10 10:29:10 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:10 -  - loadFile
+2019-12-10 10:29:10 - U - RETURN
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:10 -  - TIME UnGzipArchive 0.004 sec
+2019-12-10 10:29:10 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973750/asd.iblock/updater4.5.12.php'
+2019-12-10 10:29:10 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:29:10 - UPD_SUCCESS - Updated: asd.iblock (4.5.12)<br>Поправлена ошибка копирования цен и параметров продукта.
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.5.12%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:10 -  - TIME LoadModulesUpdates(request) 0.292 sec
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:10 - S - STEP
+2019-12-10 10:29:10 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:10 -  - loadFile
+2019-12-10 10:29:10 - U - RETURN
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:10 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:29:10 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973750/asd.iblock/updater4.6.0.php'
+2019-12-10 10:29:10 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:10 - UPD_SUCCESS - Updated: asd.iblock (4.6.0)<br>- Незначительные изменения.
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.6.0%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:11 -  - TIME LoadModulesUpdates(request) 0.265 sec
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:11 - S - STEP
+2019-12-10 10:29:11 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:11 -  - loadFile
+2019-12-10 10:29:11 - U - RETURN
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:11 -  - TIME UnGzipArchive 0.005 sec
+2019-12-10 10:29:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973751/asd.iblock/updater4.6.3.php'
+2019-12-10 10:29:11 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:11 - UPD_SUCCESS - Updated: asd.iblock (4.6.3)<br><ul> <li>Незначительные интерфейсные улучшения. <li>Исправление незначительных ошибок. </ul>
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:11 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.6.3%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:11 -  - TIME LoadModulesUpdates(request) 0.259 sec
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:11 - S - STEP
+2019-12-10 10:29:11 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:11 -  - loadFile
+2019-12-10 10:29:11 - U - RETURN
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:11 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:29:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973751/asd.iblock/updater4.6.4.php'
+2019-12-10 10:29:11 -  - TIME UpdateStepModules 0.003 sec
+2019-12-10 10:29:11 - UPD_SUCCESS - Updated: asd.iblock (4.6.4)<br>Мелкие изменения. 
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.6.4%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:12 -  - TIME LoadModulesUpdates(request) 0.284 sec
+2019-12-10 10:29:12 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:12 - S - STEP
+2019-12-10 10:29:12 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:12 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:12 -  - loadFile
+2019-12-10 10:29:12 - U - RETURN
+2019-12-10 10:29:12 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:12 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:29:12 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973752/asd.iblock/updater4.6.5.php'
+2019-12-10 10:29:12 -  - TIME UpdateStepModules 0.003 sec
+2019-12-10 10:29:12 - UPD_SUCCESS - Updated: asd.iblock (4.6.5)<br>- Изменение в групповых действиях для фасетного индекса.
+2019-12-10 10:29:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.6.5%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:12 -  - TIME LoadModulesUpdates(request) 0.268 sec
+2019-12-10 10:29:12 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:12 - S - STEP
+2019-12-10 10:29:12 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:12 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:12 -  - loadFile
+2019-12-10 10:29:13 - U - RETURN
+2019-12-10 10:29:13 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:13 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:29:13 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973753/asd.iblock/updater4.6.6.php'
+2019-12-10 10:29:13 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:13 - UPD_SUCCESS - Updated: asd.iblock (4.6.6)<br>Исправление ошибки, иногда возникающей при отвязке элементов от раздела.
+2019-12-10 10:29:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:13 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.6.6%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:13 -  - TIME LoadModulesUpdates(request) 0.274 sec
+2019-12-10 10:29:13 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:13 - S - STEP
+2019-12-10 10:29:13 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:13 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:13 -  - loadFile
+2019-12-10 10:29:13 - U - RETURN
+2019-12-10 10:29:13 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:13 -  - TIME UnGzipArchive 0.006 sec
+2019-12-10 10:29:13 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973753/asd.iblock/updater4.6.7.php'
+2019-12-10 10:29:13 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:13 - UPD_SUCCESS - Updated: asd.iblock (4.6.7)<br>Добавлен функционал отвязки от раздела.
+2019-12-10 10:29:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:13 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.6.7%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:14 -  - TIME LoadModulesUpdates(request) 0.275 sec
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:14 - S - STEP
+2019-12-10 10:29:14 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:14 -  - loadFile
+2019-12-10 10:29:14 - U - RETURN
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:14 -  - TIME UnGzipArchive 0.005 sec
+2019-12-10 10:29:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973754/asd.iblock/updater4.6.8.php'
+2019-12-10 10:29:14 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:14 - UPD_SUCCESS - Updated: asd.iblock (4.6.8)<br><li>В административной форме элемента ссылка \"посмотреть элемент\" теперь берется из канонического URL элемента, если он заполнен (иначе как раньше).
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.6.8%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:14 -  - TIME LoadModulesUpdates(request) 0.284 sec
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:14 - S - STEP
+2019-12-10 10:29:14 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:14 -  - loadFile
+2019-12-10 10:29:14 - U - RETURN
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:14 -  - TIME UnGzipArchive 0.004 sec
+2019-12-10 10:29:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973754/asd.iblock/updater4.7.0.php'
+2019-12-10 10:29:14 -  - TIME UpdateStepModules 0.004 sec
+2019-12-10 10:29:14 - UPD_SUCCESS - Updated: asd.iblock (4.7.0)<br><li>Поддержка новых гридов.
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.0%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:15 -  - TIME LoadModulesUpdates(request) 0.272 sec
+2019-12-10 10:29:15 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:15 - S - STEP
+2019-12-10 10:29:15 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:15 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:15 -  - loadFile
+2019-12-10 10:29:15 - U - RETURN
+2019-12-10 10:29:15 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:15 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:29:15 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973755/asd.iblock/updater4.7.1.php'
+2019-12-10 10:29:15 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:15 - UPD_SUCCESS - Updated: asd.iblock (4.7.1)<br><li>При перемещении теперь сохраняется оригинальный автор.
+2019-12-10 10:29:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.1%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:15 -  - TIME LoadModulesUpdates(request) 0.281 sec
+2019-12-10 10:29:15 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:15 - S - STEP
+2019-12-10 10:29:15 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:15 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:15 -  - loadFile
+2019-12-10 10:29:16 - U - RETURN
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:16 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:29:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973756/asd.iblock/updater4.7.2.php'
+2019-12-10 10:29:16 -  - TIME UpdateStepModules 0.003 sec
+2019-12-10 10:29:16 - UPD_SUCCESS - Updated: asd.iblock (4.7.2)<br><li>При перемещении счетчик просмотров теперь тоже переносится.
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.2%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:16 -  - TIME LoadModulesUpdates(request) 0.29 sec
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:16 - S - STEP
+2019-12-10 10:29:16 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:16 -  - loadFile
+2019-12-10 10:29:16 - U - RETURN
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:16 -  - TIME UnGzipArchive 0.003 sec
+2019-12-10 10:29:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973756/asd.iblock/updater4.7.3.php'
+2019-12-10 10:29:16 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:16 - UPD_SUCCESS - Updated: asd.iblock (4.7.3)<br><li>Исправлены пользовательские свойства под новую версию Инфоблоков (работает с версией iblock 18.5.4).
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.3%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:16 -  - TIME LoadModulesUpdates(request) 0.331 sec
+2019-12-10 10:29:16 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:16 - S - STEP
+2019-12-10 10:29:16 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:17 -  - loadFile
+2019-12-10 10:29:17 - U - RETURN
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:17 -  - TIME UnGzipArchive 0.001 sec
+2019-12-10 10:29:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973757/asd.iblock/updater4.7.4.php'
+2019-12-10 10:29:17 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:17 - UPD_SUCCESS - Updated: asd.iblock (4.7.4)<br><li>Исправлены ошибки последнего обновления модуля.
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.4%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:17 -  - TIME LoadModulesUpdates(request) 0.284 sec
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:17 - S - STEP
+2019-12-10 10:29:17 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:17 -  - loadFile
+2019-12-10 10:29:17 - U - RETURN
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:17 -  - TIME UnGzipArchive 0.002 sec
+2019-12-10 10:29:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973757/asd.iblock/updater4.7.5.php'
+2019-12-10 10:29:17 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:17 - UPD_SUCCESS - Updated: asd.iblock (4.7.5)<br><li>Исправление ошибки предыдущего обновления.
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.5%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:18 -  - TIME LoadModulesUpdates(request) 0.28 sec
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:18 - S - STEP
+2019-12-10 10:29:18 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:18 -  - loadFile
+2019-12-10 10:29:18 - U - RETURN
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:18 -  - TIME UnGzipArchive 0.004 sec
+2019-12-10 10:29:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973758/asd.iblock/updater4.7.6.php'
+2019-12-10 10:29:18 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:29:18 - UPD_SUCCESS - Updated: asd.iblock (4.7.6)<br><li>Добавлен вывод ошибок при совершении действий. <li>Доработан тип привязки к секции.
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.6%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:18 -  - TIME LoadModulesUpdates(request) 0.294 sec
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:18 - S - STEP
+2019-12-10 10:29:18 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:18 -  - loadFile
+2019-12-10 10:29:18 - U - RETURN
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:18 -  - TIME UnGzipArchive 0.004 sec
+2019-12-10 10:29:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973758/asd.iblock/updater4.7.7.php'
+2019-12-10 10:29:18 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:29:18 - UPD_SUCCESS - Updated: asd.iblock (4.7.7)<br><li>При копировании и перемещении добавлен выбор раздела. <li>Возвращена возможность копирования в текущий инфоблок.
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.7%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:19 -  - TIME LoadModulesUpdates(request) 0.262 sec
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:19 - S - STEP
+2019-12-10 10:29:19 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:19 -  - loadFile
+2019-12-10 10:29:19 - U - RETURN
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:19 -  - TIME UnGzipArchive 0.002 sec
+2019-12-10 10:29:19 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973759/asd.iblock/updater4.7.8.php'
+2019-12-10 10:29:19 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:19 - UPD_SUCCESS - Updated: asd.iblock (4.7.8)<br><li>Поддержка работы свойства \"простой чекбокс\" в новых гридах.
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:19 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.8%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:19 -  - TIME LoadModulesUpdates(request) 0.32 sec
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:19 - S - STEP
+2019-12-10 10:29:19 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:19 -  - loadFile
+2019-12-10 10:29:19 - U - RETURN
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:19 -  - TIME UnGzipArchive 0.004 sec
+2019-12-10 10:29:19 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973759/asd.iblock/updater4.7.9.php'
+2019-12-10 10:29:19 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:29:19 - UPD_SUCCESS - Updated: asd.iblock (4.7.9)<br><li>Поправлено перемещение между ячейками в режиме редактирования.
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:19 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.9%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:20 -  - TIME LoadModulesUpdates(request) 0.275 sec
+2019-12-10 10:29:20 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:20 - S - STEP
+2019-12-10 10:29:20 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:20 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:20 -  - loadFile
+2019-12-10 10:29:20 - U - RETURN
+2019-12-10 10:29:20 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:20 -  - TIME UnGzipArchive 0.004 sec
+2019-12-10 10:29:20 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973760/asd.iblock/updater4.7.10.php'
+2019-12-10 10:29:20 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:20 - UPD_SUCCESS - Updated: asd.iblock (4.7.10)<br><li>Поправлено перемещение между ячейками в режиме редактирования.
+2019-12-10 10:29:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.10%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:20 -  - TIME LoadModulesUpdates(request) 0.308 sec
+2019-12-10 10:29:20 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:20 - S - STEP
+2019-12-10 10:29:20 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:20 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:20 -  - loadFile
+2019-12-10 10:29:20 - U - RETURN
+2019-12-10 10:29:20 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:21 -  - TIME UnGzipArchive 0.005 sec
+2019-12-10 10:29:21 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973760/asd.iblock/updater4.7.12.php'
+2019-12-10 10:29:21 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:21 - UPD_SUCCESS - Updated: asd.iblock (4.7.12)<br><li>Технические и интерфейсные улучшения.
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.12%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:21 -  - TIME LoadModulesUpdates(request) 0.254 sec
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:21 - S - STEP
+2019-12-10 10:29:21 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:21 -  - loadFile
+2019-12-10 10:29:21 - U - RETURN
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:21 -  - TIME UnGzipArchive 0.005 sec
+2019-12-10 10:29:21 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973761/asd.iblock/updater4.7.13.php'
+2019-12-10 10:29:21 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:29:21 - UPD_SUCCESS - Updated: asd.iblock (4.7.13)<br><li>Интерфейсные улучшения.
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.13%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:21 -  - TIME LoadModulesUpdates(request) 0.297 sec
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:21 - S - STEP
+2019-12-10 10:29:21 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:21 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:21 -  - loadFile
+2019-12-10 10:29:22 - U - RETURN
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:22 -  - TIME UnGzipArchive 0.004 sec
+2019-12-10 10:29:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973762/asd.iblock/updater4.7.14.php'
+2019-12-10 10:29:22 -  - TIME UpdateStepModules 0.002 sec
+2019-12-10 10:29:22 - UPD_SUCCESS - Updated: asd.iblock (4.7.14)<br><li>Исправление ошибок.
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:22 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.14%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:22 -  - TIME LoadModulesUpdates(request) 0.285 sec
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:22 - S - STEP
+2019-12-10 10:29:22 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:22 -  - loadFile
+2019-12-10 10:29:22 - U - RETURN
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:22 -  - TIME UnGzipArchive 0.004 sec
+2019-12-10 10:29:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973762/asd.iblock/updater4.7.15.php'
+2019-12-10 10:29:22 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:29:22 - UPD_SUCCESS - Updated: asd.iblock (4.7.15)<br><li>Добавлена страница настроек модуля. <li>Добавлена опция про сохранение привязок к категориям при копировании.
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:22 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.15%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:22 -  - TIME LoadModulesUpdates(request) 0.276 sec
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:22 - S - STEP
+2019-12-10 10:29:22 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:22 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:22 -  - loadFile
+2019-12-10 10:29:23 - U - RETURN
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:23 -  - TIME UnGzipArchive 0.005 sec
+2019-12-10 10:29:23 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973763/asd.iblock/updater4.7.16.php'
+2019-12-10 10:29:23 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:29:23 - UPD_SUCCESS - Updated: asd.iblock (4.7.16)<br><li>Переключение режима просмотра добавлено в список товаров магазина. <li>Исправлена ошибка просмотра и сохранения типа свойства \"Простой чекбокс\". 
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.16%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:23 -  - TIME LoadModulesUpdates(request) 0.278 sec
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:23 - S - STEP
+2019-12-10 10:29:23 - LMU01 - LoadModulesUpdates-Step
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:23 -  - loadFile
+2019-12-10 10:29:23 - U - RETURN
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-10 10:29:23 -  - TIME UnGzipArchive 0.004 sec
+2019-12-10 10:29:23 - CSURUS1 - Run updater '/bitrix/updates/update_m1575973763/asd.iblock/updater4.7.17.php'
+2019-12-10 10:29:23 -  - TIME UpdateStepModules 0.001 sec
+2019-12-10 10:29:23 - UPD_SUCCESS - Updated: asd.iblock (4.7.17)<br><li>Добавлена новая настройка в модуль \"Отдельная копия в каждый раздел\". При установке опции, если элемент копируется в несколько разделов, то в каждом разделе будет создаваться своя копия. 
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.iblock&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:23 -  - TIME LoadModulesUpdates(request) 0.271 sec
+2019-12-10 10:29:23 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:23 - STEP - Finish - NOUPDATES
+2019-12-10 10:29:23 - STEP - Finish - NOUPDATES
+2019-12-10 10:29:55 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-10 10:29:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:55 -  - utf=Y&lang=en&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Casd.iblock%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:56 -  - TIME GetUpdatesList(request) 0.52 sec
+2019-12-10 10:29:56 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-10 10:29:57 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-10 10:29:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-10 10:29:57 -  - utf=Y&lang=en&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Casd.iblock%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-10 10:29:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-10 10:29:58 -  - TIME GetUpdatesList(request) 0.286 sec
+2019-12-10 10:29:58 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:27 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-11 08:11:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:27 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Casd.iblock%2Cbitrix.sitecorporate%2Casd.share&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:27 -  - TIME GetUpdatesList(request) 0.545 sec
+2019-12-11 08:11:27 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:33 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:33 -  - TIME LoadModulesUpdates(request) 0.296 sec
+2019-12-11 08:11:33 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:33 - S - STEP
+2019-12-11 08:11:33 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:33 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:33 -  - loadFile
+2019-12-11 08:11:33 - U - RETURN
+2019-12-11 08:11:33 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:33 -  - TIME UnGzipArchive 0.013 sec
+2019-12-11 08:11:33 -  - TIME UpdateStepModules 0.017 sec
+2019-12-11 08:11:33 - UPD_SUCCESS - Updated: asd.share
+2019-12-11 08:11:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:33 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.6.2%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:34 -  - TIME LoadModulesUpdates(request) 0.303 sec
+2019-12-11 08:11:34 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:34 - S - STEP
+2019-12-11 08:11:34 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:34 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:34 -  - loadFile
+2019-12-11 08:11:34 - U - RETURN
+2019-12-11 08:11:34 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:34 -  - TIME UnGzipArchive 0.002 sec
+2019-12-11 08:11:34 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051894/asd.share/updater2.6.3.php'
+2019-12-11 08:11:34 -  - TIME UpdateStepModules 0.003 sec
+2019-12-11 08:11:34 - UPD_SUCCESS - Updated: asd.share (2.6.3)<br>- Русская локализация Google +1
+2019-12-11 08:11:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.6.3%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:34 -  - TIME LoadModulesUpdates(request) 0.26 sec
+2019-12-11 08:11:34 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:34 - S - STEP
+2019-12-11 08:11:34 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:34 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:34 -  - loadFile
+2019-12-11 08:11:35 - U - RETURN
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:35 -  - TIME UnGzipArchive 0.003 sec
+2019-12-11 08:11:35 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051895/asd.share/updater2.7.1.php'
+2019-12-11 08:11:35 -  - TIME UpdateStepModules 0.005 sec
+2019-12-11 08:11:35 - UPD_SUCCESS - Updated: asd.share (2.7.1)<br>- Убран Google Buzz. - Реализована возможность размещать компонент в списке. - В связи с предыдущим пунктом, id кнопок превращены в классы (asd_fb_share, asd_od_share, и так далее). - В параметры добавлена опция переименования всплывающих подсказок (по умолчанию \"Расшарить в #SERVICE#\". - В параметры добавлена возможность указать data-via для Твиттера. - Прочие незначительные исправления.
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:35 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.7.1%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:35 -  - TIME LoadModulesUpdates(request) 0.27 sec
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:35 - S - STEP
+2019-12-11 08:11:35 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:35 -  - loadFile
+2019-12-11 08:11:35 - U - RETURN
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:35 -  - TIME UnGzipArchive 0.001 sec
+2019-12-11 08:11:35 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051895/asd.share/updater2.7.3.php'
+2019-12-11 08:11:35 -  - TIME UpdateStepModules 0.002 sec
+2019-12-11 08:11:35 - UPD_SUCCESS - Updated: asd.share (2.7.3)<br>- Настройки компонента, мелкие дополнения. 
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:35 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.7.3%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:35 -  - TIME LoadModulesUpdates(request) 0.262 sec
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:35 - S - STEP
+2019-12-11 08:11:35 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:35 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:35 -  - loadFile
+2019-12-11 08:11:36 - U - RETURN
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:36 -  - TIME UnGzipArchive 0.003 sec
+2019-12-11 08:11:36 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051896/asd.share/updater2.8.0.php'
+2019-12-11 08:11:36 -  - TIME UpdateStepModules 0.005 sec
+2019-12-11 08:11:36 - UPD_SUCCESS - Updated: asd.share (2.8.0)<br>- Разметка Open Graph http://ogp.me/ - Незначительные изменения и улучшения.
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.0%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:36 -  - TIME LoadModulesUpdates(request) 0.286 sec
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:36 - S - STEP
+2019-12-11 08:11:36 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:36 -  - loadFile
+2019-12-11 08:11:36 - U - RETURN
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:36 -  - TIME UnGzipArchive 0.001 sec
+2019-12-11 08:11:36 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051896/asd.share/updater2.8.1.php'
+2019-12-11 08:11:36 -  - TIME UpdateStepModules 0 sec
+2019-12-11 08:11:36 - UPD_SUCCESS - Updated: asd.share (2.8.1)<br>- Исправление для множественного размещения на странице. 
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.1%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:36 -  - TIME LoadModulesUpdates(request) 0.293 sec
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:36 - S - STEP
+2019-12-11 08:11:36 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:36 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:36 -  - loadFile
+2019-12-11 08:11:37 - U - RETURN
+2019-12-11 08:11:37 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:37 -  - TIME UnGzipArchive 0.001 sec
+2019-12-11 08:11:37 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051897/asd.share/updater2.8.2.php'
+2019-12-11 08:11:37 -  - TIME UpdateStepModules 0.002 sec
+2019-12-11 08:11:37 - UPD_SUCCESS - Updated: asd.share (2.8.2)<br>- Исправление незначительной ошибки. 
+2019-12-11 08:11:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:37 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:37 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.2%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:37 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:37 -  - TIME LoadModulesUpdates(request) 0.274 sec
+2019-12-11 08:11:37 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:37 - S - STEP
+2019-12-11 08:11:37 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:37 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:37 -  - loadFile
+2019-12-11 08:11:37 - U - RETURN
+2019-12-11 08:11:37 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:37 -  - TIME UnGzipArchive 0.002 sec
+2019-12-11 08:11:37 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051897/asd.share/updater2.8.3.php'
+2019-12-11 08:11:37 -  - TIME UpdateStepModules 0.002 sec
+2019-12-11 08:11:37 - UPD_SUCCESS - Updated: asd.share (2.8.3)<br>- Насильно уменьшена область, занимаемая кнопкой \"Твитнуть\" (второй ряд).
+2019-12-11 08:11:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:37 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:37 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.3%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:37 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:38 -  - TIME LoadModulesUpdates(request) 0.292 sec
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:38 - S - STEP
+2019-12-11 08:11:38 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:38 -  - loadFile
+2019-12-11 08:11:38 - U - RETURN
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:38 -  - TIME UnGzipArchive 0.004 sec
+2019-12-11 08:11:38 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051898/asd.share/updater2.8.4.php'
+2019-12-11 08:11:38 -  - TIME UpdateStepModules 0.001 sec
+2019-12-11 08:11:38 - UPD_SUCCESS - Updated: asd.share (2.8.4)<br>- Добавлена кнопка расшаривания в Google Plus (верхний ряд).
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.4%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:38 -  - TIME LoadModulesUpdates(request) 0.276 sec
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:38 - S - STEP
+2019-12-11 08:11:38 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:38 -  - loadFile
+2019-12-11 08:11:38 - U - RETURN
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:38 -  - TIME UnGzipArchive 0.001 sec
+2019-12-11 08:11:38 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051898/asd.share/updater2.8.8.php'
+2019-12-11 08:11:38 -  - TIME UpdateStepModules 0.002 sec
+2019-12-11 08:11:38 - UPD_SUCCESS - Updated: asd.share (2.8.8)<br>- Удаление выбора прав доступа к модулю.
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.8%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:39 -  - TIME LoadModulesUpdates(request) 0.265 sec
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:39 - S - STEP
+2019-12-11 08:11:39 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:39 -  - loadFile
+2019-12-11 08:11:39 - U - RETURN
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:39 -  - TIME UnGzipArchive 0.002 sec
+2019-12-11 08:11:39 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051899/asd.share/updater2.8.9.php'
+2019-12-11 08:11:39 -  - TIME UpdateStepModules 0.003 sec
+2019-12-11 08:11:39 - UPD_SUCCESS - Updated: asd.share (2.8.9)<br>- Поддержка Композита.
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.9%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:39 -  - TIME LoadModulesUpdates(request) 0.268 sec
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:39 - S - STEP
+2019-12-11 08:11:39 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:39 -  - loadFile
+2019-12-11 08:11:39 - U - RETURN
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:39 -  - TIME UnGzipArchive 0.002 sec
+2019-12-11 08:11:39 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051899/asd.share/updater2.8.10.php'
+2019-12-11 08:11:39 -  - TIME UpdateStepModules 0.003 sec
+2019-12-11 08:11:39 - UPD_SUCCESS - Updated: asd.share (2.8.10)<br>- Убран сервис Я.ру.
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.10%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:39 -  - TIME LoadModulesUpdates(request) 0.25 sec
+2019-12-11 08:11:39 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:39 - S - STEP
+2019-12-11 08:11:39 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:40 -  - loadFile
+2019-12-11 08:11:40 - U - RETURN
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:40 -  - TIME UnGzipArchive 0.001 sec
+2019-12-11 08:11:40 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051900/asd.share/updater2.8.11.php'
+2019-12-11 08:11:40 -  - TIME UpdateStepModules 0.002 sec
+2019-12-11 08:11:40 - UPD_SUCCESS - Updated: asd.share (2.8.11)<br>Изменен адрес API Вконтакта.
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:40 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.11%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:40 -  - TIME LoadModulesUpdates(request) 0.266 sec
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:40 - S - STEP
+2019-12-11 08:11:40 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:40 -  - loadFile
+2019-12-11 08:11:40 - U - RETURN
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 08:11:40 -  - TIME UnGzipArchive 0.002 sec
+2019-12-11 08:11:40 - CSURUS1 - Run updater '/bitrix/updates/update_m1576051900/asd.share/updater2.8.12.php'
+2019-12-11 08:11:40 -  - TIME UpdateStepModules 0.002 sec
+2019-12-11 08:11:40 - UPD_SUCCESS - Updated: asd.share (2.8.12)<br><li>Протокол изменен на https.
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:40 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=asd.share&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:40 -  - TIME LoadModulesUpdates(request) 0.274 sec
+2019-12-11 08:11:40 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:40 - STEP - Finish - NOUPDATES
+2019-12-11 08:11:40 - STEP - Finish - NOUPDATES
+2019-12-11 08:11:42 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-11 08:11:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:42 -  - utf=Y&lang=en&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Casd.share%2Casd.iblock%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:42 -  - TIME GetUpdatesList(request) 0.291 sec
+2019-12-11 08:11:42 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:11:44 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-11 08:11:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:11:44 -  - utf=Y&lang=en&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Casd.share%2Casd.iblock%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:11:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:11:44 -  - TIME GetUpdatesList(request) 0.266 sec
+2019-12-11 08:11:44 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 08:13:41 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-11 08:13:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 08:13:41 -  - utf=Y&lang=en&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Casd.share%2Casd.iblock%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 08:13:41 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 08:13:41 -  - TIME GetUpdatesList(request) 0.372 sec
+2019-12-11 08:13:41 -  - exec CUpdateClientPartner::ParseServerData

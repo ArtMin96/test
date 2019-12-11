@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed416ba4-c93a-42f7-8284-d7b4e480948e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UjzBd9Zc05Qh0uWIdgMKs4GpG5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/local/templates/armswiss/components/bitrix/news.list" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/local/templates/armswiss/components/bitrix/news.list" />
+      <recent name="$PROJECT_DIR$/local/templates/armswiss/components/bitrix" />
+      <recent name="$PROJECT_DIR$/local/templates/armswiss/components/bitrix/system.pagenavigation/show_more/lang/ru" />
+      <recent name="$PROJECT_DIR$/local/templates/armswiss/lang/ru" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/local/templates/armswiss/components/bitrix/system.pagenavigation/show_more/lang" />
+      <recent name="$PROJECT_DIR$/local/templates/armswiss/components/bitrix/system.pagenavigation" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed416ba4-c93a-42f7-8284-d7b4e480948e" name="Default Changelist" comment="" />
+      <created>1575884658246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575884658246</updated>
+      <workItem from="1575884660372" duration="17547000" />
+      <workItem from="1575960733054" duration="23473000" />
+      <workItem from="1576046928636" duration="8874000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="723" y="338" width="464" height="356" key="NewPhpClassDialog" timestamp="1575884680700">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="338" width="464" height="356" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575884680700" />
+    <state x="778" y="445" width="354" height="142" key="NewPhpFileDialog" timestamp="1576054857014">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="778" y="445" width="354" height="142" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576054857014" />
+    <state x="464" y="154" key="SettingsEditor" timestamp="1576049901695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="464" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576049901695" />
+    <state x="643" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1576046932941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576046932941" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1575902964218">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575902964218" />
+    <state x="768" y="438" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1575962901509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="768" y="438" width="540" height="166" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575962901509" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/local/templates/armswiss/components/bitrix/menu/main_menu/template.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/local/templates/armswiss/components/bitrix/system.pagenavigation/show_more/template.php</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/local/templates/armswiss/components/bitrix/news.list/projects_ajax/template.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

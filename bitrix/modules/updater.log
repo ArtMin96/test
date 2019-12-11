@@ -1,0 +1,11 @@
+2019-12-10 10:27:37 -  - exec CUpdateClient::GetUpdatesList
+2019-12-10 10:27:37 -  - exec CUpdateClient::CollectRequestData
+2019-12-10 10:27:37 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.0.0&VERSION=20.0.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&CHHB=armswiss.loc&CSAB=127.0.0.1&SUID=e4c75558da43d88e6937311130586b22&CANGZIP=Y&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&stable=Y&NGINX=Y&SMD=N&rerere=Y&bitm_main=20.0.0&bitm_ui=19.0.400&bitm_landing=19.0.175&bitm_compression=19.0.0&bitm_messageservice=19.0.0&bitm_translate=18.0.100&bitm_search=18.5.200&bitm_perfmon=18.5.0&bitm_bitrixcloud=18.5.0&bitm_fileman=18.5.500&bitm_b24connector=18.5.0&bitm_highloadblock=19.0.0&bitm_rest=18.5.162&bitm_seo=19.0.800&bitm_iblock=18.6.1000&bitm_clouds=19.0.0&bitm_socialservices=19.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-N
+2019-12-10 10:27:37 -  - exec CUpdateClient::GetHTTPPage
+2019-12-10 10:27:37 -  - TIME GetUpdatesList(request) 0.515 sec
+2019-12-10 10:27:37 -  - exec CUpdateClient::ParseServerData
+2019-12-10 10:27:37 -  - exec CUpdateClient::executeCounters
+2019-12-10 10:27:37 -  - exec CUpdateClient::CollectRequestData
+2019-12-10 10:27:37 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=20.0.0&VERSION=20.0.0&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&CHHB=armswiss.loc&CSAB=127.0.0.1&SUID=e4c75558da43d88e6937311130586b22&CANGZIP=Y&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&stable=Y&NGINX=Y&SMD=N&rerere=Y&bitm_main=20.0.0&bitm_ui=19.0.400&bitm_landing=19.0.175&bitm_compression=19.0.0&bitm_messageservice=19.0.0&bitm_translate=18.0.100&bitm_search=18.5.200&bitm_perfmon=18.5.0&bitm_bitrixcloud=18.5.0&bitm_fileman=18.5.500&bitm_b24connector=18.5.0&bitm_highloadblock=19.0.0&bitm_rest=18.5.162&bitm_seo=19.0.800&bitm_iblock=18.6.1000&bitm_clouds=19.0.0&bitm_socialservices=19.0.0&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=Y&SALE_15=Y&LICENSE_SIGNED=%7Enew_license18_0_sign-N&query_type=counter&cntr_result[236]=7.2&cntr_result[238]=5.7
+2019-12-10 10:27:37 -  - exec CUpdateClient::GetHTTPPage
+2019-12-10 10:27:37 -  - TIME executeCounters 0.215 sec

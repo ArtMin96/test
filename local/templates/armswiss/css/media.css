@@ -1,0 +1,344 @@
+@media (max-width: 1199px) {
+  /* ========== global ========== */
+  body > section[id] {
+    padding: 50px 0;
+  }
+
+  /* ========== header ========== */
+  .navbar .navbar-brand img {
+    width: 238px;
+  }
+
+  /* ========== carousel ========== */
+  .carousel {
+    height: calc(100vh - 70px);
+  }
+
+  /* ========== projects ========== */
+  .project-statistics-bg {
+    height: 290px;
+  }
+
+  .project-statistics {
+    padding: 40px 0;
+  }
+
+  /* ========== statistics ========== */
+  .statistics-list {
+    height: 300px;
+    padding: 45px 0;
+  }
+
+  .statistic .statistic-num {
+    font-size: 64px;
+    line-height: 64px;
+  }
+
+  .statistic .statistic-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  /* ========== covers ========== */
+  .covers-list {
+    margin-top: -145px;
+  }
+
+  /* ========== events ========== */
+  .events-list .col-md-6 {
+    margin-bottom: 30px;
+  }
+
+  /* ========== brands ========== */
+  .brands-list .brand {
+    width: 170px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* ========== global ========== */
+  body > section[id] {
+    padding: 30px 0;
+  }
+
+  /* ========== header ========== */
+  .navbar-nav {
+    margin: 30px auto 0;
+    width: 75%;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 1rem 0;
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .lang-boox {
+    display: flex;
+  }
+
+  .navbar-nav .go-to {
+    margin: 40px 0 !important;
+  }
+
+  /* ========== carousel ========== */
+  .carousel {
+    height: calc(100vh - 63px);
+  }
+
+  /* ========== mission ========== */
+  .mission-bg {
+    padding: 40px;
+  }
+
+  /* ========== projects ========== */
+  .project .card-title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .project .card-img-top {
+    margin: 0 auto 30px;
+  }
+
+  /* ========== covers ========== */
+  .covers-list .cover {
+    height: 210px;
+  }
+
+  .cover .card-img-overlay {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .cover .card-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  /* ========== brands ========== */
+  .brands-list .brand {
+    width: 100px;
+  }
+
+  /* ========== contact ========== */
+  .box-wrapper {
+    padding: 40px;
+  }
+
+  .address-box .address-cover {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .address-box .addresses {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .addresses .address {
+    margin-bottom: 12px;
+  }
+
+  .address-box .soc {
+    justify-content: center;
+  }
+
+  .form-box {
+    padding: 0;
+    margin-bottom: 50px;
+    border-left: none;
+  }
+
+  .form-box button[type=submit] {
+    padding: 0.375rem 3rem;
+  }
+
+  /* ========== footer ========== */
+  .footer .navbar-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: unset;
+    justify-content: flex-end;
+    margin-top: 0;
+  }
+
+  .footer .navbar-nav .nav-link {
+    display: inline-block;
+  }
+
+  /* ========== projects page ========== */
+  .project-slider{
+    width: 100% !important;
+  }
+
+  .project-article-cover .banner iframe{
+    height: 50vh;
+  }
+}
+
+@media (max-width: 767px) {
+  /* ========== global ========== */
+  h1, h2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  /* ========== header ========== */
+  .navbar-toggler {
+    padding: 0;
+    width: 24px;
+  }
+
+  /* ========== carousel ========== */
+  .carousel .carousel-control-prev-icon,
+  .carousel .carousel-control-next-icon {
+    display: none;
+  }
+
+  /* ========== mission ========== */
+  #mission .container,
+  #mission .row,
+  #mission .col-12 {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .mission-bg {
+    width: 100%;
+    padding: 1px 0 40px;
+    display: block;
+    margin-top: 70px;
+  }
+
+  .mission-cover {
+    height: 200px;
+    position: unset;
+    width: calc(540px - 30px);
+    margin: -70px auto 40px;
+  }
+
+  .mission-content {
+    font-size: 14px;
+    line-height: 19px;
+    width: 540px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  /* ========== projects ========== */
+  .projects-list .project {
+    height: unset;
+    margin-bottom: 30px;
+  }
+
+  .project .card-text {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  /* ========== statistics ========== */
+  .statistics-list {
+    height: 170px;
+    padding: 30px 0;
+  }
+
+  .statistic .statistic-num {
+    font-size: 24px;
+    line-height: 24px
+  }
+
+  .statistic .statistic-title {
+    font-size: 14px;
+    line-height: 14px
+  }
+
+  /* ========== covers ========== */
+  .covers-list {
+    margin-top: -100px;
+  }
+
+  /* ========== events ========== */
+  .event .card-title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .event .card-body .card-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .event .card-footer .card-text {
+    margin-bottom: 10px;
+  }
+
+  /* ========== brands ========== */
+  .brands-list .brand {
+    width: 70px;
+  }
+
+  /* ========== contact ========== */
+  .box-wrapper {
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .addresses {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .addresses svg {
+    font-size: 16px;
+  }
+
+  .form-box button[type=submit] {
+    width: 82%;
+    display: block;
+    margin: auto;
+  }
+
+  /* ========== footer ========== */
+  .footer {
+    display: none;
+  }
+
+  /* ========== projects page ========== */
+  .otherProjectsTabsBox .card .card-links-box{
+    height: 80px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* ========== mission ========== */
+  .mission-cover {
+    width: calc(100% - 30px);
+  }
+
+  .mission-content {
+    width: 100%;
+  }
+
+  /* ========== statistics ========== */
+  .statistics-list > div.row > div.col-3{
+    padding: 0 4px;
+  }
+
+  .statistic .statistic-num {
+    font-size: 22px;
+    line-height: 22px
+  }
+
+  .statistic .statistic-title {
+    font-size: 12px;
+    line-height: 12px
+  }
+}
