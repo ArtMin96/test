@@ -1,8 +1,8 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001576065254';
-$dateexpire = '001612065254';
-$ser_content = 'a:2:{s:7:"CONTENT";s:7423:"
+$datecreate = '001576070456';
+$dateexpire = '001612070456';
+$ser_content = 'a:2:{s:7:"CONTENT";s:7434:"
 <section id="events">
     <div class="container">
         <h2>Events & News</h2>
@@ -107,7 +107,7 @@ $ser_content = 'a:2:{s:7:"CONTENT";s:7423:"
                         <!--\'start_frame_cache_fRzbon\'-->
 
             
-        <div class="load_more load-more-event" data-url="/?PAGEN_1=2">
+        <div class="load_more load-more-event" data-url="/?lang_ui=en&PAGEN_1=2">
             Load More            <i class="fas fa-arrow-down"></i>
         </div>
 

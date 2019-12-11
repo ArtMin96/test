@@ -1279,3 +1279,96 @@
 2019-12-11 08:13:41 -  - exec CUpdateClientPartner::GetHTTPPage
 2019-12-11 08:13:41 -  - TIME GetUpdatesList(request) 0.372 sec
 2019-12-11 08:13:41 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:02 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-11 13:11:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 13:11:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Casd.share%2Casd.iblock%2Cbitrix.sitecorporate%2Caltasib.feedback&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 13:11:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 13:11:06 -  - TIME GetUpdatesList(request) 4.756 sec
+2019-12-11 13:11:06 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 13:11:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 13:11:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=altasib.feedback&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 13:11:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 13:11:14 -  - TIME LoadModulesUpdates(request) 0.254 sec
+2019-12-11 13:11:14 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:14 - S - STEP
+2019-12-11 13:11:14 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 13:11:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 13:11:14 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:14 -  - loadFile
+2019-12-11 13:11:15 - U - RETURN
+2019-12-11 13:11:15 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 13:11:15 -  - TIME UnGzipArchive 0.031 sec
+2019-12-11 13:11:15 -  - TIME UpdateStepModules 0.021 sec
+2019-12-11 13:11:15 - UPD_SUCCESS - Updated: altasib.feedback
+2019-12-11 13:11:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 13:11:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 13:11:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Baltasib.feedback%2C3.0.1%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=altasib.feedback&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 13:11:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 13:11:15 -  - TIME LoadModulesUpdates(request) 0.276 sec
+2019-12-11 13:11:15 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:15 - S - STEP
+2019-12-11 13:11:15 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 13:11:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 13:11:15 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:15 -  - loadFile
+2019-12-11 13:11:16 - U - RETURN
+2019-12-11 13:11:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 13:11:16 -  - TIME UnGzipArchive 0.03 sec
+2019-12-11 13:11:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1576069876/altasib.feedback/updater3.0.4.php'
+2019-12-11 13:11:16 -  - TIME UpdateStepModules 0.014 sec
+2019-12-11 13:11:16 - UPD_SUCCESS - Updated: altasib.feedback (3.0.4)<br>- Добавлена отправка заявок в Bitrix24 - Добавлена возможность проверки сообщений на спецсимволы для исключения спама с сылками. - Прочие мелкие правки
+2019-12-11 13:11:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 13:11:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 13:11:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Baltasib.feedback%2C3.0.4%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=altasib.feedback&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 13:11:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 13:11:16 -  - TIME LoadModulesUpdates(request) 0.269 sec
+2019-12-11 13:11:16 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:16 - S - STEP
+2019-12-11 13:11:16 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 13:11:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 13:11:16 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:16 -  - loadFile
+2019-12-11 13:11:16 - U - RETURN
+2019-12-11 13:11:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 13:11:16 -  - TIME UnGzipArchive 0.012 sec
+2019-12-11 13:11:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1576069876/altasib.feedback/updater3.0.5.php'
+2019-12-11 13:11:16 -  - TIME UpdateStepModules 0.011 sec
+2019-12-11 13:11:16 - UPD_SUCCESS - Updated: altasib.feedback (3.0.5)<br>- Доработан функционал привязки обращения к элементу ИБ - теперь выбранный элемент сохраняется в ИБ. Для сохранения выбранного элемента в элементе обращения, в соответствующем ИБ создайте следующие поля ELEMENT_NAME (текстовое поле, название элемента), ELEMENT_EDIT_LINK (текстовое поле, ссылка на редактирование элемента), ELEMENT_EDIT_LINK_ID (привязка к элементу, ИД элемента). 
+2019-12-11 13:11:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 13:11:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 13:11:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Baltasib.feedback%2C3.0.5%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=altasib.feedback&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 13:11:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 13:11:17 -  - TIME LoadModulesUpdates(request) 0.262 sec
+2019-12-11 13:11:17 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:17 - S - STEP
+2019-12-11 13:11:17 - LMU01 - LoadModulesUpdates-Step
+2019-12-11 13:11:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 13:11:17 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:17 -  - loadFile
+2019-12-11 13:11:17 - U - RETURN
+2019-12-11 13:11:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2019-12-11 13:11:17 -  - TIME UnGzipArchive 0.001 sec
+2019-12-11 13:11:17 - CSURUS1 - Run updater '/bitrix/updates/update_m1576069877/altasib.feedback/updater3.0.6.php'
+2019-12-11 13:11:17 -  - TIME UpdateStepModules 0.002 sec
+2019-12-11 13:11:17 - UPD_SUCCESS - Updated: altasib.feedback (3.0.6)<br>- Фикс для совместимости с последними версиями 1С-Битрикс
+2019-12-11 13:11:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2019-12-11 13:11:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 13:11:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Baltasib.feedback%2C3.0.6%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=altasib.feedback&lim=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 13:11:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 13:11:17 -  - TIME LoadModulesUpdates(request) 0.272 sec
+2019-12-11 13:11:17 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:17 - STEP - Finish - NOUPDATES
+2019-12-11 13:11:17 - STEP - Finish - NOUPDATES
+2019-12-11 13:11:25 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-11 13:11:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 13:11:25 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Baltasib.feedback%2C3.0.6%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Casd.share%2Caltasib.feedback%2Casd.iblock%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 13:11:25 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 13:11:25 -  - TIME GetUpdatesList(request) 0.282 sec
+2019-12-11 13:11:25 -  - exec CUpdateClientPartner::ParseServerData
+2019-12-11 13:11:27 -  - exec CUpdateClientPartner::GetUpdatesList
+2019-12-11 13:11:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2019-12-11 13:11:27 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=armswiss.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.2.24-0ubuntu0.18.04.1&NGINX=Y&dbv=5.7.28&instm=main%2C20.0.0%2CY%3Bui%2C19.0.400%2CN%3Blanding%2C19.0.175%2CN%3Bcompression%2C19.0.0%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Btranslate%2C18.0.100%2CN%3Basd.share%2C2.8.12%2CN%3Baltasib.feedback%2C3.0.6%2CN%3Bsearch%2C18.5.200%2CN%3Basd.iblock%2C4.7.17%2CN%3Bperfmon%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bfileman%2C18.5.500%2CN%3Bb24connector%2C18.5.0%2CN%3Bhighloadblock%2C19.0.0%2CN%3Brest%2C18.5.162%2CN%3Bseo%2C19.0.800%2CN%3Biblock%2C18.6.1000%2CN%3Bclouds%2C19.0.0%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Casd.share%2Caltasib.feedback%2Casd.iblock%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=Y
+2019-12-11 13:11:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2019-12-11 13:11:27 -  - TIME GetUpdatesList(request) 0.271 sec
+2019-12-11 13:11:27 -  - exec CUpdateClientPartner::ParseServerData
