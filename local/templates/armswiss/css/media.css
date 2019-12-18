@@ -9,11 +9,6 @@
     width: 238px;
   }
 
-  /* ========== carousel ========== */
-  .carousel {
-    height: calc(100vh - 70px);
-  }
-
   /* ========== projects ========== */
   .project-statistics-bg {
     height: 290px;
@@ -86,8 +81,16 @@
   }
 
   /* ========== carousel ========== */
-  .carousel {
-    height: calc(100vh - 63px);
+  .slick-slider {
+    height: 55vh;
+  }
+
+    .slick-dots li button{
+        padding: 5px;
+    }
+
+  .carousel-content{
+    padding: 40px;
   }
 
   /* ========== mission ========== */
@@ -104,6 +107,15 @@
 
   .project .card-img-top {
     margin: 0 auto 30px;
+  }
+
+  .projects-list .project {
+    height: unset;
+  }
+
+  .projects-list .project > a {
+    display: block;
+    margin-bottom: 30px;
   }
 
   /* ========== covers ========== */
@@ -143,10 +155,6 @@
 
   .addresses .address {
     margin-bottom: 12px;
-  }
-
-  .address-box .soc {
-    justify-content: center;
   }
 
   .form-box {
@@ -196,9 +204,24 @@
   }
 
   /* ========== carousel ========== */
-  .carousel .carousel-control-prev-icon,
-  .carousel .carousel-control-next-icon {
-    display: none;
+  .carousel-content{
+    top: 0;
+    transform: none;
+    height: 55vh !important;
+    font-size: 12px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 0;
+  }
+
+    .carousel-content .head-btn{
+        padding: 8px 15px;
+    }
+
+  .carousel-content h1{
+    font-size: 16px;
   }
 
   /* ========== mission ========== */
@@ -233,10 +256,6 @@
   }
 
   /* ========== projects ========== */
-  .projects-list .project {
-    height: unset;
-    margin-bottom: 30px;
-  }
 
   .project .card-text {
     font-size: 14px;
@@ -311,9 +330,32 @@
   }
 
   /* ========== projects page ========== */
+  .projectTypes{
+    flex-wrap: wrap;
+  }
+  .projectTypes .projectTypeItem{
+    flex-basis: 100%;
+    margin-bottom: 1rem
+  }
   .otherProjectsTabsBox .card .card-links-box{
     height: 80px;
     margin-top: 15px;
+  }
+
+  .otherProjectsTab .nav-tabs .nav-link {
+    flex-basis: 32%;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+
+  .filterIconsBox .card-text-links{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .filterIconsBox p{
+    flex-basis: 100%;
+    margin-bottom: 1rem;
   }
 }
 

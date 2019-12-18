@@ -1,8 +1,8 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001576070456';
-$dateexpire = '001612070456';
-$ser_content = 'a:2:{s:7:"CONTENT";s:4266:"
+$datecreate = '001576685291';
+$dateexpire = '001612685291';
+$ser_content = 'a:2:{s:7:"CONTENT";s:3450:"
 <section id="projects">
     <main>
         <div class="container">
@@ -13,14 +13,11 @@ $ser_content = 'a:2:{s:7:"CONTENT";s:4266:"
                             <div class="project">
                                 <div class="card">
                                     <figure>
-                                        <img src="" class="card-img-top" alt="">
+                                        <img src="/upload/iblock/35c/35cf7b9441e255c8cca1a5abd111d304.png" class="card-img-top" alt="Solar Panel">
                                         <figcaption>
                                             <div class="card-body">
                                                                                                     <h5 class="card-title">
                                                         Solar Panel                                                    </h5>
-                                                
-                                                                                                    <p class="card-text">
-                                                        This is a longer card with supporting text below as                                                    </p>
                                                                                             </div>
                                         </figcaption>
                                     </figure>
@@ -31,14 +28,11 @@ $ser_content = 'a:2:{s:7:"CONTENT";s:4266:"
                             <div class="project">
                                 <div class="card">
                                     <figure>
-                                        <img src="" class="card-img-top" alt="">
+                                        <img src="/upload/iblock/a4f/a4f97c1d024511867971d9fd0bb08279.png" class="card-img-top" alt="Hydroelectric Power Station">
                                         <figcaption>
                                             <div class="card-body">
                                                                                                     <h5 class="card-title">
                                                         Hydroelectric Power Station                                                    </h5>
-                                                
-                                                                                                    <p class="card-text">
-                                                        This is a longer card with supporting text below as a na is a longer card with supporting text below as                                                    </p>
                                                                                             </div>
                                         </figcaption>
                                     </figure>
@@ -49,14 +43,11 @@ $ser_content = 'a:2:{s:7:"CONTENT";s:4266:"
                             <div class="project">
                                 <div class="card">
                                     <figure>
-                                        <img src="" class="card-img-top" alt="">
+                                        <img src="/upload/iblock/b07/b0735b2ebeb7c6293130b6bd7e20bcf7.png" class="card-img-top" alt="Energy Saving">
                                         <figcaption>
                                             <div class="card-body">
                                                                                                     <h5 class="card-title">
                                                         Energy Saving                                                    </h5>
-                                                
-                                                                                                    <p class="card-text">
-                                                        This is a longer card with                                                    </p>
                                                                                             </div>
                                         </figcaption>
                                     </figure>

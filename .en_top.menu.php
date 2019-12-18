@@ -8,13 +8,6 @@ $aMenuLinks = Array(
         ""
     ),
     Array(
-        "How We Work",
-        "#statistics",
-        Array(),
-        Array(),
-        ""
-    ),
-    Array(
         "Projects",
         "/projects/",
         Array(),
@@ -27,6 +20,13 @@ $aMenuLinks = Array(
         Array(),
         Array(),
         ""
-    )
+    ),
+    Array(
+        "Contacts",
+        "#contact",
+        Array(),
+        Array(),
+        ""
+    ),
 );
 ?>

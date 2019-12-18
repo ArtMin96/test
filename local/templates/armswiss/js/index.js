@@ -1,11 +1,22 @@
 $( document ).ready(function() {
 
-    (function productsSlider(){
+    (function projectSlider(){
         $('.slider-items img').click( function (e) {
-            console.log($(this).attr('src'));
             $('.main-slider img').attr('src', $(this).attr('src'))
         } )
-    })()
+    })();
 
+    $('.slick-slider').slick({
+        autoplay: true,
+        dots: true,
+        prevArrow: false,
+        nextArrow: false,
+        fade: true,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        swipeToSlide: true,
+    });
 
+    $('.slick-dots li button').text('');
 });
+

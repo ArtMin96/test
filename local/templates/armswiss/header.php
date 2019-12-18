@@ -24,6 +24,7 @@ IncludeModuleLangFile(__FILE__);
     // CSS Files
     Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/all.min.css');
     Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/bootstrap.min.css');
+    Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/slick.css');
     Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/style.css');
     Asset::getInstance()->addCss(SITE_TEMPLATE_PATH . '/css/media.css');
 
@@ -32,8 +33,10 @@ IncludeModuleLangFile(__FILE__);
     // JS Files
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/jquery.js');
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/all.min.js');
+    Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/slick.min.js');
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/popper.js');
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/bootstrap.min.js');
+    Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/numScroller.js');
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . '/js/index.js');
 
     $APPLICATION->ShowHead();

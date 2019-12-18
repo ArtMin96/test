@@ -5,75 +5,80 @@ $APPLICATION->SetTitle('ArmSwissBank | Home');
 
 <?php
 
-$APPLICATION->IncludeComponent("bitrix:news.list", "main_slider", Array(
-    "ACTIVE_DATE_FORMAT" => "d.m.Y",	// Date display format
-    "ADD_SECTIONS_CHAIN" => "N",	// Add Section name to breadcrumb navigation
-    "AJAX_MODE" => "N",	// Enable AJAX mode
-    "AJAX_OPTION_ADDITIONAL" => "",	// Additional ID
-    "AJAX_OPTION_HISTORY" => "N",	// Emulate browser navigation
-    "AJAX_OPTION_JUMP" => "N",	// Enable scrolling to component's top
-    "AJAX_OPTION_STYLE" => "Y",	// Enable styles loading
-    "CACHE_FILTER" => "N",	// Cache if the filter is active
-    "CACHE_GROUPS" => "Y",	// Respect Access Permissions
-    "CACHE_TIME" => "36000000",	// Cache time (sec.)
-    "CACHE_TYPE" => "A",	// Cache type
-    "CHECK_DATES" => "N",	// Show only currently active elements
-    "COMPOSITE_FRAME_MODE" => "A",	// Default component template vote
-    "COMPOSITE_FRAME_TYPE" => "AUTO",	// Component content
-    "DETAIL_URL" => "",	// Detail page URL (from information block settings by default)
-    "DISPLAY_BOTTOM_PAGER" => "N",	// Display at the bottom of the list
-    "DISPLAY_DATE" => "N",	// Display element date
-    "DISPLAY_NAME" => "N",	// Display element title
-    "DISPLAY_PICTURE" => "Y",	// Display element preview picture
-    "DISPLAY_PREVIEW_TEXT" => "N",	// Display element preview text
-    "DISPLAY_TOP_PAGER" => "N",	// Display at the top of the list
-    "FIELD_CODE" => array(	// Fields
-        0 => "",
-        1 => "",
-    ),
-    "FILTER_NAME" => "",	// Filter
-    "HIDE_LINK_WHEN_NO_DETAIL" => "N",	// Hide link to the details page if no detailed description provided
-    "IBLOCK_ID" => "1",	// Information block code
-    "IBLOCK_TYPE" => "Slider",	// Type of information block (used for verification only)
-    "INCLUDE_IBLOCK_INTO_CHAIN" => "N",	// Include information block into navigation chain
-    "INCLUDE_SUBSECTIONS" => "N",	// Show elements from subsections
-    "MESSAGE_404" => "",	// Show this message (a component provided message is used by default)
-    "NEWS_COUNT" => "20",	// News per page
-    "PAGER_BASE_LINK_ENABLE" => "N",	// Enable link processing
-    "PAGER_DESC_NUMBERING" => "N",	// Use reverse page navigation
-    "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",	// Cache time for pages with reverse page navigation
-    "PAGER_SHOW_ALL" => "N",	// Show the ALL link
-    "PAGER_SHOW_ALWAYS" => "N",	// Always show the pager
-    "PAGER_TEMPLATE" => ".default",	// Breadcrumb navigation template
-    "PAGER_TITLE" => "Slider",	// Category name
-    "PARENT_SECTION" => "",	// Section ID
-    "PARENT_SECTION_CODE" => "",	// Section code
-    "PREVIEW_TRUNCATE_LEN" => "",	// Maximum preview text length (for Text type only)
-    "PROPERTY_CODE" => array(	// Properties
-        0 => "",
-        1 => "",
-    ),
-    "SET_BROWSER_TITLE" => "N",	// Set browser window title
-    "SET_LAST_MODIFIED" => "N",	// Set page last modified date to response header
-    "SET_META_DESCRIPTION" => "N",	// Set page description
-    "SET_META_KEYWORDS" => "N",	// Set page keywords
-    "SET_STATUS_404" => "N",	// Set status 404
-    "SET_TITLE" => "N",	// Set page title
-    "SHOW_404" => "N",	// Show page
-    "SORT_BY1" => "ACTIVE_FROM",	// Field for the news first sorting pass
-    "SORT_BY2" => "SORT",	// Field for the news second sorting pass
-    "SORT_ORDER1" => "DESC",	// Direction for the news first sorting pass
-    "SORT_ORDER2" => "ASC",	// Direction for the news second sorting pass
-    "STRICT_SECTION_CHECK" => "N",	// Check parent section when showing list
-    "COMPONENT_TEMPLATE" => ".default",
-    "TEMPLATE_THEME" => "blue",
-    "MEDIA_PROPERTY" => "",
-    "SLIDER_PROPERTY" => "",
-    "SEARCH_PAGE" => "/search/",
-    "USE_RATING" => "N",
-    "USE_SHARE" => "N"
-),
-false
+$APPLICATION->IncludeComponent(
+	"bitrix:news.list", 
+	"main_slider", 
+	array(
+		"ACTIVE_DATE_FORMAT" => "d.m.Y",
+		"ADD_SECTIONS_CHAIN" => "N",
+		"AJAX_MODE" => "N",
+		"AJAX_OPTION_ADDITIONAL" => "",
+		"AJAX_OPTION_HISTORY" => "N",
+		"AJAX_OPTION_JUMP" => "N",
+		"AJAX_OPTION_STYLE" => "Y",
+		"CACHE_FILTER" => "N",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_TIME" => "36000000",
+		"CACHE_TYPE" => "A",
+		"CHECK_DATES" => "N",
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"DETAIL_URL" => "",
+		"DISPLAY_BOTTOM_PAGER" => "N",
+		"DISPLAY_DATE" => "N",
+		"DISPLAY_NAME" => "N",
+		"DISPLAY_PICTURE" => "Y",
+		"DISPLAY_PREVIEW_TEXT" => "N",
+		"DISPLAY_TOP_PAGER" => "N",
+		"FIELD_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"FILTER_NAME" => "",
+		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
+		"IBLOCK_ID" => "1",
+		"IBLOCK_TYPE" => "Slider",
+		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
+		"INCLUDE_SUBSECTIONS" => "N",
+		"MESSAGE_404" => "",
+		"NEWS_COUNT" => "20",
+		"PAGER_BASE_LINK_ENABLE" => "N",
+		"PAGER_DESC_NUMBERING" => "N",
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+		"PAGER_SHOW_ALL" => "N",
+		"PAGER_SHOW_ALWAYS" => "N",
+		"PAGER_TEMPLATE" => ".default",
+		"PAGER_TITLE" => "Slider",
+		"PARENT_SECTION" => "",
+		"PARENT_SECTION_CODE" => "",
+		"PREVIEW_TRUNCATE_LEN" => "",
+		"PROPERTY_CODE" => array(
+			0 => "SLIDER_DESCRIPTION",
+			1 => "SLIDER_LINK",
+			2 => "SLIDER_TITLE",
+			3 => "",
+		),
+		"SET_BROWSER_TITLE" => "N",
+		"SET_LAST_MODIFIED" => "N",
+		"SET_META_DESCRIPTION" => "N",
+		"SET_META_KEYWORDS" => "N",
+		"SET_STATUS_404" => "N",
+		"SET_TITLE" => "N",
+		"SHOW_404" => "N",
+		"SORT_BY1" => "ACTIVE_FROM",
+		"SORT_BY2" => "SORT",
+		"SORT_ORDER1" => "DESC",
+		"SORT_ORDER2" => "ASC",
+		"STRICT_SECTION_CHECK" => "N",
+		"COMPONENT_TEMPLATE" => "main_slider",
+		"TEMPLATE_THEME" => "blue",
+		"MEDIA_PROPERTY" => "",
+		"SLIDER_PROPERTY" => "",
+		"SEARCH_PAGE" => "/search/",
+		"USE_RATING" => "N",
+		"USE_SHARE" => "N"
+	),
+	false
 );
 ?>
 
@@ -183,25 +188,25 @@ $APPLICATION->IncludeComponent(
             <div class="row">
                 <div class="col-3">
                     <div class="statistic">
-                        <span class="statistic-num">15</span>
+                        <span class="statistic-num numscroller" data-min='1' data-max='100' data-delay='10' data-increment='1'></span>
                         <span class="statistic-title">tears</span>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="statistic">
-                        <span class="statistic-num">260</span>
+                        <span class="statistic-num numscroller" data-min='1' data-max='260' data-delay='10' data-increment='1'></span>
                         <span class="statistic-title">projects</span>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="statistic">
-                        <span class="statistic-num">1000</span>
+                        <span class="statistic-num numscroller" data-min='1' data-max='1000' data-delay='10' data-increment='1'></span>
                         <span class="statistic-title">collected</span>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="statistic">
-                        <span class="statistic-num">500</span>
+                        <span class="statistic-num numscroller" data-min='1' data-max='500' data-delay='10' data-increment='1'></span>
                         <span class="statistic-title">volunteers</span>
                     </div>
                 </div>
@@ -214,45 +219,16 @@ $APPLICATION->IncludeComponent(
             <div class="container">
                 <div class="covers-list">
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-md-6">
                             <div class="cover">
                                 <div class="card">
                                     <img src="./img/covers/cover1.png" class="card-img" alt="cover">
                                     <div class="card-img-overlay">
                                         <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-cloud"></i> CO2</a>
-                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-bolt"></i> power</a>
-                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-map-marker-alt"></i> location</a>
-                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-th-large"></i> project type</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="cover">
-                                <div class="card">
-                                    <img src="./img/covers/cover2.png" class="card-img" alt="cover">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-cloud"></i> CO2</a>
-                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-bolt"></i> power</a>
-                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-map-marker-alt"></i> location</a>
-                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-th-large"></i> project type</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="cover">
-                                <div class="card">
-                                    <img src="./img/covers/cover3.png" class="card-img" alt="cover">
-                                    <div class="card-img-overlay">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-cloud"></i> CO2</a>
-                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-bolt"></i> power</a>
-                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-map-marker-alt"></i> location</a>
+                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-solar-panel"></i> solar station</a>
+                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-map-marker-alt"></i> power</a>
+                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-bolt"></i> location</a>
+                                        <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-cloud"></i> location</a>
                                         <p class="card-text"><a href="./pages/otherProjects.html"><i class="fas fa-th-large"></i> project type</a></p>
                                     </div>
                                 </div>
@@ -460,57 +436,78 @@ $APPLICATION->IncludeComponent(
                     <div class="col-md-6 order-first order-md-last">
                         <div class="form-box">
                             <?$APPLICATION->IncludeComponent(
-                                "altasib:feedback.form",
-                                "",
-                                Array(
-                                    "ACTIVE_ELEMENT" => "Y",
-                                    "ADD_HREF_LINK" => "Y",
-                                    "ADD_LEAD" => "N",
-                                    "ALX_LINK_POPUP" => "N",
-                                    "BBC_MAIL" => "",
-                                    "CATEGORY_SELECT_NAME" => "Выберите категорию",
-                                    "CHECKBOX_TYPE" => "CHECKBOX",
-                                    "CHECK_ERROR" => "Y",
-                                    "COLOR_SCHEME" => "BRIGHT",
-                                    "COLOR_THEME" => "",
-                                    "COMPOSITE_FRAME_MODE" => "A",
-                                    "COMPOSITE_FRAME_TYPE" => "AUTO",
-                                    "EVENT_TYPE" => "ALX_FEEDBACK_FORM",
-                                    "FB_TEXT_NAME" => "",
-                                    "FB_TEXT_SOURCE" => "PREVIEW_TEXT",
-                                    "FORM_ID" => "1",
-                                    "IBLOCK_ID" => "7",
-                                    "IBLOCK_TYPE" => "altasib_feedback",
-                                    "INPUT_APPEARENCE" => array("DEFAULT"),
-                                    "JQUERY_EN" => "jquery",
-                                    "LINK_SEND_MORE_TEXT" => "Отправить ещё одно сообщение",
-                                    "LOCAL_REDIRECT_ENABLE" => "N",
-                                    "MASKED_INPUT_PHONE" => array("PHONE"),
-                                    "MESSAGE_OK" => "Ваше сообщение было успешно отправлено",
-                                    "NAME_ELEMENT" => "ALX_DATE",
-                                    "PROPERTY_FIELDS" => array("FIO","EMAIL","FEEDBACK_TEXT"),
-                                    "PROPERTY_FIELDS_REQUIRED" => array("FIO","EMAIL","FEEDBACK_TEXT"),
-                                    "PROPS_AUTOCOMPLETE_EMAIL" => array("EMAIL"),
-                                    "PROPS_AUTOCOMPLETE_NAME" => array("FIO"),
-                                    "PROPS_AUTOCOMPLETE_PERSONAL_PHONE" => array("PHONE"),
-                                    "PROPS_AUTOCOMPLETE_VETO" => "N",
-                                    "REQUIRED_SECTION" => "N",
-                                    "SECTION_FIELDS_ENABLE" => "N",
-                                    "SECTION_MAIL_ALL" => "armswissbank@gmail.com",
-                                    "SEND_IMMEDIATE" => "Y",
-                                    "SEND_MAIL" => "N",
-                                    "SHOW_LINK_TO_SEND_MORE" => "Y",
-                                    "SHOW_MESSAGE_LINK" => "Y",
-                                    "SPEC_CHAR" => "N",
-                                    "USERMAIL_FROM" => "N",
-                                    "USER_CONSENT" => "N",
-                                    "USER_CONSENT_ID" => "0",
-                                    "USER_CONSENT_INPUT_LABEL" => "",
-                                    "USER_CONSENT_IS_CHECKED" => "Y",
-                                    "USER_CONSENT_IS_LOADED" => "N",
-                                    "USE_CAPTCHA" => "N",
-                                    "WIDTH_FORM" => "50%"
-                                )
+                    "altasib:feedback.form",
+                    "contact_us",
+                                    array(
+                                        "ACTIVE_ELEMENT" => "Y",
+                                        "ADD_HREF_LINK" => "Y",
+                                        "ADD_LEAD" => "N",
+                                        "ALX_LINK_POPUP" => "N",
+                                        "BBC_MAIL" => "",
+                                        "CATEGORY_SELECT_NAME" => "Выберите категорию",
+                                        "CHECKBOX_TYPE" => "CHECKBOX",
+                                        "CHECK_ERROR" => "Y",
+                                        "COLOR_SCHEME" => "BRIGHT",
+                                        "COLOR_THEME" => "",
+                                        "COMPOSITE_FRAME_MODE" => "A",
+                                        "COMPOSITE_FRAME_TYPE" => "AUTO",
+                                        "EVENT_TYPE" => "ALX_FEEDBACK_FORM",
+                                        "FB_TEXT_NAME" => "",
+                                        "FB_TEXT_SOURCE" => "PREVIEW_TEXT",
+                                        "FORM_ID" => "1",
+                                        "IBLOCK_ID" => "7",
+                                        "IBLOCK_TYPE" => "altasib_feedback",
+                                        "INPUT_APPEARENCE" => array(
+                                            0 => "DEFAULT",
+                                        ),
+                                        "JQUERY_EN" => "jquery",
+                                        "LINK_SEND_MORE_TEXT" => "Отправить ещё одно сообщение",
+                                        "LOCAL_REDIRECT_ENABLE" => "N",
+                                        "MASKED_INPUT_PHONE" => array(
+                                            0 => "PHONE",
+                                        ),
+                                        "MESSAGE_OK" => "Ваше сообщение было успешно отправлено",
+                                        "NAME_ELEMENT" => "ALX_DATE",
+                                        "PROPERTY_FIELDS" => array(
+                                            0 => "FIO",
+                                            1 => "EMAIL",
+                                            2 => "FEEDBACK_TEXT",
+                                        ),
+                                        "PROPERTY_FIELDS_REQUIRED" => array(
+                                            0 => "FIO",
+                                            1 => "EMAIL",
+                                            2 => "FEEDBACK_TEXT",
+                                        ),
+                                        "PROPS_AUTOCOMPLETE_EMAIL" => array(
+                                            0 => "EMAIL",
+                                        ),
+                                        "PROPS_AUTOCOMPLETE_NAME" => array(
+                                            0 => "FIO",
+                                        ),
+                                        "PROPS_AUTOCOMPLETE_PERSONAL_PHONE" => array(
+                                            0 => "PHONE",
+                                        ),
+                                        "PROPS_AUTOCOMPLETE_VETO" => "N",
+                                        "REQUIRED_SECTION" => "N",
+                                        "SECTION_FIELDS_ENABLE" => "N",
+                                        "SECTION_MAIL_ALL" => "artminasyanart96@gmail.com",
+                                        "SEND_IMMEDIATE" => "Y",
+                                        "SEND_MAIL" => "N",
+                                        "SHOW_LINK_TO_SEND_MORE" => "Y",
+                                        "SHOW_MESSAGE_LINK" => "Y",
+                                        "SPEC_CHAR" => "N",
+                                        "USERMAIL_FROM" => "N",
+                                        "USER_CONSENT" => "N",
+                                        "USER_CONSENT_ID" => "0",
+                                        "USER_CONSENT_INPUT_LABEL" => "",
+                                        "USER_CONSENT_IS_CHECKED" => "Y",
+                                        "USER_CONSENT_IS_LOADED" => "N",
+                                        "USE_CAPTCHA" => "N",
+                                        "WIDTH_FORM" => "100%",
+                                        "COMPONENT_TEMPLATE" => "contact_us",
+                                        "COLOR_OTHER" => "#009688"
+                                    ),
+	false
                             );?>
 
                         </div>

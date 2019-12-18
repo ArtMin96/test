@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/armswiss/css/all.min.css" => "157649556656842","/local/templates/armswiss/css/bootstrap.min.css" => "1576495566155758","/local/templates/armswiss/css/slick.css" => "15764955661776","/local/templates/armswiss/css/style.css" => "157667896713985","/local/templates/armswiss/css/media.css" => "15764955666702",); ?>

@@ -1,7 +1,7 @@
 <?
 if($INCLUDE_FROM_CACHE!='Y')return false;
-$datecreate = '001576068707';
-$dateexpire = '001612068707';
+$datecreate = '001576680780';
+$dateexpire = '001612680780';
 $ser_content = 'a:2:{s:7:"CONTENT";s:11386:"
 <section id="otherProjectsTabs">
     <div class="container">

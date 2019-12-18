@@ -8,13 +8,6 @@ $aMenuLinks = Array(
         ""
     ),
     Array(
-        "Как мы работаем",
-        "#statistics",
-        Array(),
-        Array(),
-        ""
-    ),
-    Array(
         "Проекты",
         "/projects/",
         Array(),
@@ -24,6 +17,13 @@ $aMenuLinks = Array(
     Array(
         "События и новости",
         "#events",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "Связаться с нами",
+        "#contact",
         Array(),
         Array(),
         ""

@@ -40,17 +40,6 @@ $themeClass = isset($arParams['TEMPLATE_THEME']) ? ' bx-'.$arParams['TEMPLATE_TH
                                                         ?>
                                                     </h5>
                                                 <?php endif; ?>
-
-                                                <?php if($arParams["DISPLAY_PREVIEW_TEXT"]!="N" && $arItem["PREVIEW_TEXT"]): ?>
-                                                    <p class="card-text">
-                                                        <?php if(LANGUAGE_ID == 'ru') {
-                                                            echo $arItem['DISPLAY_PROPERTIES']['RUSSIAN_DESCRIPTION']['VALUE'][0];
-                                                        } else {
-                                                            echo $arItem["PREVIEW_TEXT"];
-                                                        }
-                                                        ?>
-                                                    </p>
-                                                <?php endif; ?>
                                             </div>
                                         </figcaption>
                                     </figure>
